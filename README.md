@@ -1,2 +1,2 @@
 # Weather7
-simple intituative app build in react
+simple intuitive app build in react
