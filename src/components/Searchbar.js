@@ -4,6 +4,7 @@ import { GrLocation } from "react-icons/gr";
 
 
 export default class Searchbar extends Component {
+  
   getInput = () => console.log("sdfa");
 
   render() {

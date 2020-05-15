@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Chart from "react-apexcharts";
 
-class WeatherChart extends Component {
+class MainCardGraph extends Component {
   constructor(props) {
     super(props);
 
@@ -25,6 +25,7 @@ class WeatherChart extends Component {
   render() {
     return (
       <div>
+        <h1>MainCardGraph</h1>
         <Chart
           options={this.state.options}
           series={this.state.series}
@@ -36,4 +37,4 @@ class WeatherChart extends Component {
   }
 }
 
-export default WeatherChart;
+export default MainCardGraph;
