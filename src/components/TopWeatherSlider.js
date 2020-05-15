@@ -1,8 +1,11 @@
 import React from 'react'
 
-export const TopWeatherSlider = () => {
+const TopWeatherSlider = () => {
     return (
         <div>
+            {"sndl"}
         </div>
     )
 }
+
+export default TopWeatherSlider

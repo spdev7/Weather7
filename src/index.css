@@ -21,4 +21,8 @@
     left: -22px;
     top: -2px;
   }
+
+  .bottomcomponent {
+    display: flex;
+  }
 }
