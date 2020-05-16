@@ -1,40 +1,86 @@
 /* MOBILE FIRST DESIGN  */
-@media only screen and(min-width: 600px) {
-  .searchbar {
-    width: 100%;
-    box-shadow: 5px 10px aquamarine;
-  }
+.searchbar {
+  width: 100%;
+  box-shadow: 5px 10px aquamarine;
+}
 
-  .slider{
-    width:100%;
-    height:50px;
-    display:flex;
-    flex-direction: column;
-  }
+.location {
+  position: relative;
+  z-index: 50;
+  left: 20px;
+  top: -2px;
+}
 
-  .slider-element{
-    width: 20%;
-    height:50px;
-    border: black;
-  }
-  .location {
-    position: relative;
-    z-index: 50;
-    left: 20px;
-    top: -2px;
-  }
+.input {
+  width: 90%;
+  padding-left:1.5rem;
+}
 
-  .input {
-    width: 90%;
-  }
+.searchicon {
+  position: relative;
+  left: -22px;
+  top: -2px;
+}
 
-  .searchicon {
-    position: relative;
-    left: -22px;
-    top: -2px;
-  }
+.slider {
+  margin: 0;
+  height: 100px;
+  /* background-color: blue; */
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
 
-  .bottomcomponent {
-    display: flex;
-  }
+  /* display:flex;/
+
+    flex-direction: column; */
+}
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.slider-a {
+  margin-top:2rem;
+  display:flex;
+  flex-direction: row;
+}
+.slider-a h5{
+  margin-top:0.4rem;
+}
+.slider-element-a {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  /* background-color: red; */
+}
+.slider-element-a:hover{
+  background-color:#FF0000;
+  /* box-shadow: 10px 5px 5px red; */
+}
+
+.main-card-parent {
+  height: 600px;
+  background-color: palegreen;
+  border-radius: 4%;
+}
+
+.main-card-graph {
+  overflow-y: scroll;
+  /* overflow-x: hidden; */
+}
+.main-card-graph::-webkit-scrollbar {
+  display: none;
+}
+.main-card-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100px;
+  background-color: purple;
+}
+.bottombox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+  height: 50%;
+  width: 50%;
+  background-color: yellow;
 }

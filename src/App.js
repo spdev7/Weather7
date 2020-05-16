@@ -9,7 +9,7 @@ const API_key = "5f4778fdb74257d09fb3ce7653a1e252";
 
 const App = () => {
   return (
-    <div className="container">
+    <div>
       <HomePage apiKey={API_key} />
     </div>
   );
